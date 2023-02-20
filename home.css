@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+  }
+  header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo{
+    margin-left:200px ;
+   
+  }
+  #web{
+    color: rgb(7, 87, 87);
+  }
+  .hea{
+    font-size: 30px;
+    
+  }
+  header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 600px;
+  }
+  header .nav ul{
+    list-style: none;
+  }
+  header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+  }
+  header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  header .nav ul li a:hover{
+    color: #7f97ff;
+  }
+  
+  .section1{
+    background-color: #cdcddd;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .half1{
+    width: 50%;
+    
+  }
+  .half2{
+    width: 50%;
+  }
+  .half1{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #basit{
+    color: black;
+    padding-right: 5px;
+  }
+  .half2{
+  
+    margin-top: 20px;
+  }
+  .half2 img{
+    /* max-width: 400px; */
+    width: 70%;
+    height: 50%;
+    background-color: #cdcddd;
+  }
+  .half1 h3{
+    font-weight: normal;
+  }
+  .half1 h1{
+    font-size: 60px;
+  }
+  .half1 p{
+    color: rgba(78, 78, 78, 0.7);
+  }
+  .half1 input{
+    padding: 12px 25px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .half1 input:hover{
+    box-shadow:5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+  }
+  .sociall{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    
+  }
+  .btn{
+    background-color: #c5d8cb;
+    border-radius: 10px;
+    padding: 10px;
+   
+    
+  }
+  .btn2{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+    margin-top: 60px;
+  }
+  .lik{
+    font-size: 30px;
+  }
+  
